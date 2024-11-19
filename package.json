@@ -1,0 +1,51 @@
+{
+  "name": "ss-planner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "yarn install",
+    "build": "next build",
+    "deploy": "firebase deploy --only functions,hosting"
+  },
+  "dependencies": {
+    "@date-fns/upgrade": "^1.0.3",
+    "@phosphor-icons/react": "^2.1.5",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@types/lodash": "^4.17.0",
+    "classnames": "^2.5.1",
+    "firebase": "^10.11.0",
+    "firebase-tools": "^13.7.3",
+    "firebase-tools-extra": "^1.0.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.371.0",
+    "moment": "^2.30.1",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.2",
+    "react-redux": "^9.1.0",
+    "redux-persist": "^6.0.0",
+    "unsplash-js": "^7.0.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8.4.38",
+    "prettier": "3.2.5",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": ".prettierrc.js",
+  "author": "dumik <dumik.alive@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/Dumik/ss-planner.git"
+}
